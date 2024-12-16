@@ -1,0 +1,11 @@
+CUSTOMER_ID                                FEEDBACK                                                    RATING(1-5)
+0001                                       Amazing product, will buy more soon.                            5
+0002                                       Terrible service, never coming back.				   2
+0003					   Good product, bad customer service.		                   3
+0004					   Friendly staff, I will be back soon.                            5
+0005					   Love my new gold bracelet. Thank you!                           4
+0006					   These guys are my go to. Always love!                           5
+0007					   Very rude, stay away!                                           1
+0008                                       My friend recommended them to me, and I'm glad i did.           4
+0009                                       best jewelry, best price.  				           5
+0010                                       Hi Marchello, I will come back for more. Thanks!                5
