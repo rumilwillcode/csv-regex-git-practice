@@ -21,4 +21,11 @@ def unhappy_customer():
         phone_num.append(match.group(4).strip())
   return customer_id, feedback, rating, phone_num
 
-unhappy_customer()
+def create_call_list(customer_id, feedback, rating, phone_num):
+  """Using the data extracted by the unhappy_customer function, creates a call list of unhappy customers (csv file)."""
+  with open("unhappy_call_list.csv", "w", newline="") as file:
+    writer = csv.writer(file)
+    columns = ["Customer ID", "Feedback", "Rating", "Phone #"] 
+    writer.writerow(columns)
+    for i in range(len(customer_id)):
+      writer.writerow([customer_id[i], feedbsck[i], rating[i], phone_num[i]])
